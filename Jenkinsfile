@@ -7,7 +7,7 @@ pipeline {
                 script {
                     // Compile the .cpp file using a shell script
                     build 'PES1UG21CS069-1'
-                    sh 'g++ -o my_program task5.cpp'
+                    sh 'gdp -o my_program task5.cpp'
                 }
             }
         }
